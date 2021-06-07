@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(233, 47%, 7%);   
+    background-color: hsl(233, 47%, 7%);
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
     background-color: hsl(277, 64%, 61%);
 }
 
-.img { 
+.img {
     height: 100%;
     width: 100%;
     mix-blend-mode: multiply;
@@ -51,7 +51,7 @@ body {
     margin-top: 2rem;
 }
 
-#brand { 
+#brand {
     color: hsl(277, 64%, 61%);
 }
 
@@ -71,10 +71,11 @@ body {
 }
 
 #templates {
-    margin: 20px 0 20px 0; 
+    margin: 20px 0 20px 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Inter', sans-serif;
     color: hsl(0, 0%, 100%);
 }
@@ -93,8 +94,9 @@ h3 {
 
 .credits {
     padding-top: 10px;
-    color:hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
 }
+
 .credits a {
     text-decoration: none;
     color: hsl(277, 64%, 61%);
@@ -109,7 +111,7 @@ h3 {
     .container {
         margin: 0;
         flex-direction: row;
-        min-height: 450px;
+        min-height: 400px;
         min-width: 1080px;
     }
 
@@ -121,13 +123,13 @@ h3 {
 
     .text {
         flex: 1;
-        height: 100%;
+        height: auto;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         padding: 2rem;
     }
 
-    .title { 
+    .title {
         text-align: start;
         font-size: 1.1rem;
         margin: 2rem 2rem 0 2rem;
@@ -147,20 +149,31 @@ h3 {
         margin: 4rem 2rem 0 2rem;
         padding-right: 6rem;
         padding-left: 2rem;
+        padding-bottom: 2rem;
     }
 
+    #companies {
+        text-align: start;
+    }
 
-     #templates {
-         margin: 0;
-     }
+    #templates {
+        margin: 0;
+        text-align: start;
+    }
 
+    #queries {
+        text-align: start;
+    }
+
+    h3 {
+        letter-spacing: 2px;
+    }
 
 }
 
 @media screen and (min-width: 475px) {
-    
+
     .container {
         width: 384px;
     }
 }
-
